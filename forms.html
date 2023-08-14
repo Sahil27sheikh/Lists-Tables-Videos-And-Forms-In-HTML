@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel Form For A Trip</h1>
+        <hr>
+
+        <!-- type='text' is use for input the text.
+        placeholder is use to show to user which type of information is feel on form.
+        type='radio' is use for the user can select only one option form all option. but it is work only if the name is same. radio tag is use for the click the options, it is same as old radio specker which have on only one key select at a time.
+        id is important in html form. the id is always different then other id( it is just like a roll number of studant in a class ).
+        the seperate labels and id is same both time.
+        the label is always use after <form> tag and before <input> tag and close after the <input> tag. one label is use for only one input tag. label is not use for input type='text'.
+        name is also use in html forms, name is meny time same and that reason the form is work easily.
+        The value of the form is always defferent. name and value is same sometine.
+        textarea tag is use to input the some information form user.
+        There are so meny input types in forms such as text. radio, checkbox, color, date, button, date time local, email, file, hidden, image, month, number, password, range, reset, search, submit, tel (telephone number), time, url, week and datetime. -->
+
+        <form action="forms.php">
+            <input type="text" placeholder="input your name"><hr>
+            <label for="section id a">
+                <input type="radio" value="section A" name="section" id="section id a">Section A
+            </label>
+            <label for="section id b">
+                <input type="radio" value="section B" name="section" id="section id b">Section b
+            </label>
+            <label for="section id c">
+                <input type="radio" value="section C" name="section" id="section id c">Section c
+            </label>
+            <hr>
+            <label for="canteen card">
+                <input type="checkbox" name="canteen" id="canteen card" value="canteen">You Need The Canteem
+            </label>
+            <hr>
+        </form>
+    </div>
+    <div>
+        <textarea name="explane" id="explane" cols="30" rows="10"
+            placeholder="Input information about you..."></textarea>
+    </div>
+
+    <div>
+        <label for="movie">Select your faverote movie form this list</label>
+        <select name="your faverote movie Form The list" id="movie"> <!-- select attribute is use for provide the optins to user as a list-->
+            <option value="--Select The Movie--">--Select--</option>
+            <option value="Veer">Veer</option> <!-- option attribute is use after the select attribute-->
+            <option value="Ham Aap Hai Kaun">Ham Aap Hai Kaun</option>
+            <option value="Bajrangi Bhaijan">Bajrangi Bhaijan</option>
+            <option value="Pathan">Pathan</option>
+            <option value="Bahubali">Bahubali</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="submit">Submit
+            <input type="submit" name="submit button" id="submit" value="submit button">
+        </label>
+
+    </div>
+</body>
+
+</html>

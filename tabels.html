@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+
+<body>
+    <div>
+        <table>
+            <thead> <!-- <thead> is use to wrap the head part of the table means first <tr> <th> and <td>-->
+
+                <caption>Data of Cricket Players</caption> <!-- caption is use for caption of the table -->
+
+                <tr><!-- <tr> means table row -->
+                    <th>Sr.No</th> <!-- <th> means tabel heading -->
+                    <th>Player name</th>
+                    <th>Country</th>
+                    <th>Score</th>
+                    <th>Rank</th>
+                </tr>
+                <tr><!-- <tr> means table row -->
+                    <td>1</td> <!-- <th> means tabel heading -->
+                    <td>Shahid</td>
+                    <td>India</td>
+                    <td>90</td>
+                    <td>2<sup>nd</sup></td>
+                </tr>
+            </thead> <!-- <thead> is close after table first headings-->
+
+            <tbody> <!-- <tboky> is use in body of the table after the first <tr> <th> and <td> -->
+
+                <tr><!-- <tr> means table row -->
+                    <td>2</td> <!-- <th> means tabel heading -->
+                    <td>Aman</td>
+                    <td>Pakistan</td>
+                    <td>87</td>
+                    <td>3<sup>rd</sup></td>
+                </tr>
+                <tr><!-- <tr> means table row -->
+                    <td>3</td> <!-- <th> means tabel heading -->
+                    <td>Sahil</td>
+                    <td>India</td>
+                    <td>95</td>
+                    <td>1<sup>st</sup></td>
+                </tr>
+            </tbody> <!-- <tboky> is close befor the close the </table>-->
+        </table>
+    </div>
+    <hr>
+
+    <!-- example of tables using CSS designe -->
+    <div>
+        <table>
+            <thead>
+                <tr style="color:cadetblue">
+                    <th style="background-color:yellow;">1<sup>st</sup></th>
+                    <th style="background-color:black;">2<sup>nd</sup></th>
+                    <th style="background-color:orange;">3<sup>rd</sup></th>
+                    <th style="background-color:pink;">4<sup>th</sup></th>
+                </tr>
+                <tr>
+                    <td style="color:pink">sahil</td>
+                    <td style="color:pink">rohit</td>
+                    <td style="color:pink">golu</td>
+                    <td style="color:pink">aman</td>
+                </tr>
+            </thead>
+            <tbody>
+            <td style="color:blueviolet">vrey<br>
+                good<br>
+                boy</td>
+            <td style="color:green;">good<br>
+                boy</td>
+            <td style="color:blueviolet">average<br>
+                boy</td>
+            <td style="color:green;">bad<br>
+                boy</td>
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- Use of colspan in html tables -->
+    <!-- the colspan is use for a 1 heading which include 1 or more data -->
+
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th colspan="4">score</th>
+                    <th>result</th>
+                </tr>
+                <tr>
+                    <td>sahil</td>
+                    <td>45</td>
+                    <td>49</td>
+                    <td>39</td>
+                    <td>48</td>
+                    <td>48</td>
+                    <td>pass</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Shahid</td>
+                    <td>45</td>
+                    <td>45</td>
+                    <td>45</td>
+                    <td>45</td>
+                    <td>45</td>
+                    <td>pass</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

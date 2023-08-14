@@ -1,0 +1,351 @@
+<!-- Creat a html form for a travel website to book a vacation -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel website</title>
+</head>
+
+<body style="background-color: bisque;">
+    <header>
+        <div>
+            <h1 style="color: chocolate; background-color: aquamarine;">Sahil Travaling Partners</h1>
+            <hr>
+            <h2 style="color: blue;">Fill This Form For your Great Trip In Burj Khalifa</h2>
+            <img src="https://arabiahorizons.com/blog/wp-content/uploads/2020/06/Burj-Khalifa-Floors.jpg" alt="error"
+                width="1450" height="600">
+            <h2><b>Use this form to register for your vacation. Please register your legal name as it<br>will appear on
+                    your passport.</b></h2>
+            <hr>
+            <h3>Personal Information</h3>
+        </div>
+    </header>
+    <main>
+        <form action="forms.php"></form>
+        <div>
+            <section>
+                <label for="name">Name:
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Middle Name">
+                    <input type="text" placeholder="Last Name">
+                </label>
+            </section>
+            <section>
+                <label for="birthday">Date of Birth:
+                    <input type="text" id="birthday" placeholder="00/00/0000">
+                </label>
+            </section>
+            <section>
+                <label for="Email"> Enter Your Email:
+                    <input type="email" id="Email" placeholder="ex. sahilsfdff434@gmail.com">
+                </label>
+            </section>
+            <section>
+                <label for="country code">Enter Your Valid mobile number:
+                    <input type="text" id="country codde" placeholder="country code">
+                </label>
+                <label for="mobile number">
+                    <input type="text" id="mobile number" placeholder="mobile number">
+                </label>
+            </section>
+        </div>
+        <div>
+            <section>
+                <label for="address">Address <br>
+                    <textarea name="Address" id="address" cols="30" rows="10"
+                        placeholder="Enter Your Full Address"></textarea>
+                </label>
+            </section>
+        </div>
+        <div>
+            <hr>
+            <label for="for one or more person">Are you more than two people</label>
+            <select name="more than two" id="for more than two person">
+                <option value="--Select--">--Select--</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div>
+            <section>
+                <label for="person 2">2<sup>nd</sup>person
+                    <input type="checkbox" name="person tow" id="person 2" name="person" value="person">
+                </label>
+            </section>
+            <section>
+                <label for="person 2">Guest #2 Full Name:
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Middle Name">
+                    <input type="text" placeholder="Last Name">
+                </label>
+            </section>
+            <section>
+                <label for="birthday">Date of Birth:
+                    <input type="text" id="birthday" placeholder="00/00/0000">
+                </label>
+            </section>
+            <section>
+                <label for="person 2">3<sup>nrd</sup>person
+                    <input type="checkbox" name="person three" id="person 3" name="person" value="person">
+                </label>
+            </section>
+        </div>
+        <div>
+            <section>
+                <label for="person 3">Guest #3 Full Name:
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Middle Name">
+                    <input type="text" placeholder="Last Name">
+                </label>
+            </section>
+            <section>
+                <label for="birthday">Date of Birth:
+                    <input type="text" id="birthday" placeholder="00/00/0000">
+                </label>
+            </section>
+        </div>
+        <div>
+            <label for="citizen yes">Are all quest traveling U.S. citizen?
+                <input type="radio" name="citizen" id="citizen yes" value="citizen">Yes
+            </label>
+            <label for="citizen no">
+                <input type="radio" name="citizen" id="citizen no" value="citizen">No
+            </label>
+        </div>
+        <hr>
+
+        <div>
+            <h3>Travel Information</h3>
+            <label for=" vehical type">Cruise/Aeroplane</label>
+            <select name="travel type" id="vehical type">
+                <option value="--Select--">--Select--</option>
+                <option value="Cruise">Cruise</option>
+                <option value="Aeroplane">Aeroplane</option>
+            </select><br>
+
+            <label for="hotel">Select Hotel Type</label>
+            <select name="hotel type" id="hotel">
+                <option value="--Select--">--Select--</option>
+                <option value="7 star">7 star</option>
+                <option value="5 star">5 star</option>
+                <option value="3 star">3 star</option>
+                <option value="2 star">2 star</option>
+            </select><br>
+            <section>
+                <label for="breakfast">Breakfast Time
+                    <input type="time" name="breakfast time" id="breakfast">
+                </label>
+            </section>
+            <section>
+                <label for="lunch">Lunch Time
+                    <input type="time" name="lunch time" id="lunch">
+                </label>
+            </section>
+            <section>
+                <label for="deener">Deener Time
+                    <input type="time" name="deener time" id="deener">
+                </label>
+            </section>
+        </div>
+
+        <div>
+            <section>
+                <label for="type a">Cabin Type A:
+                    <input type="radio" name="cabin" id="type a" value="cabin a">Inside
+                </label>
+                <label for="type b">
+                    <input type="radio" name="cabin" id="type b" value="cabin b">Oceanview
+                </label>
+                <label for="type c">
+                    <input type="radio" name="cabin" id="type c" value="cabin c">Balcony
+                </label>
+                <label for="type d">
+                    <input type="radio" name="cabin" id="type d" value="cabin d">Suite
+                </label>
+            </section>
+        </div>
+        <div>
+            <section>
+                <label for="type a2">Cabin Type B:
+                    <input type="radio" name="cabin 1" id="type a2" value="cabin a2">Inside
+                </label>
+                <label for="type b2">
+                    <input type="radio" name="cabin 1" id="type b2" value="cabin b2">Oceanview
+                </label>
+                <label for="type c2">
+                    <input type="radio" name="cabin 1" id="type c2" value="cabin c2">Balcony
+                </label>
+                <label for="type d2">
+                    <input type="radio" name="cabin 1" id="type d2" value="cabin d2">Suite
+                </label>
+            </section>
+        </div>
+
+        <div>
+            <section>
+                <label for="rooms types a">Hotel Bedding:
+                    <input type="radio" name="room" id="rooms types a" value="room 1">Single bed
+                </label>
+                <label for="rooms types b">
+                    <input type="radio" name="room" id="rooms types b" value="room 2">Double Bed
+                </label>
+                <label for="rooms types c">
+                    <input type="radio" name="room" id="rooms types c" value="room 3">Queen
+                </label>
+                <label for="rooms types d">
+                    <input type="radio" name="room" id="rooms types d" value="room 4">King
+                </label>
+            </section>
+        </div>
+        <hr>
+
+        <div>
+            <section>
+                <h3>Health Information</h3>
+                <label for="for health">Use this area to list health concerns or special occasion:<br></label>
+                <textarea name="health" id="for health" cols="30" rows="10" placeholder="Write here..."></textarea>
+            </section>
+        </div>
+        <hr>
+
+        <div>
+            <section>
+                <h3>Emergency contact Information</h3>
+                <label for="emergency contact">Emergency contact names and number:<br></label>
+                <textarea name="contact" id="emergency contact" cols="30" rows="10"
+                    placeholder="Write here your emergency name and contact for your safety"></textarea>
+            </section>
+            <hr>
+        </div>
+
+        <div>
+            <section>
+                <h3>Budget & Insurance Information</h3>
+                <label for="trip cost">Enter Your Toral Trip Budget:</label>
+                <input type="text">
+            </section>
+        </div>
+
+        <div>
+            <section>
+                <label for="for insurance">Do you want travel insurnace?
+                    <select name="insurance" id="for insurance">
+                        <option value="--Select--">--Select--</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+            </section>
+            </label>
+        </div>
+        <hr>
+
+        <div>
+            <h3>Documentation</h3>
+            <section>
+                <h4>person 1:</h4>
+                <p>Note: only jpg, png, and pfd type of documents is accepted. <br>File size lemit is only 2MB </p>
+                <label for="aadhar card">Aadhar card
+                    <input type="file" name="aadhar" id="aadhar card">
+                </label>
+                <label for="pan card">PAN card
+                    <input type="file" name="PAN" id="pan card">
+                </label>
+                <label for="passport">Passport
+                    <input type="file" name="Your Passport" id="passport">
+                </label>
+                <label for="photograph">Passport size photograph
+                    <input type="file" name="photo" id="photograph">
+                </label>
+            </section>
+
+            <section>
+                <h4>person 2:</h4>
+                <p>Note: only jpg, png, and pfd type of documents is accepted. <br>File size lemit is only 2MB </p>
+                <label for="aadhar card">Aadhar card
+                    <input type="file" name="aadhar" id="aadhar card">
+                </label>
+                <label for="pan card">PAN card
+                    <input type="file" name="PAN" id="pan card">
+                </label>
+                <label for="passport">Passport
+                    <input type="file" name="Your Passport" id="passport">
+                </label>
+                <label for="photograph">Passport size photograph
+                    <input type="file" name="photo" id="photograph">
+                </label>
+            </section>
+
+            <section>
+                <h4>person 3:</h4>
+                <p>Note: only jpg, png, and pfd type of documents is accepted. <br>File size lemit is only 2MB </p>
+                <label for="aadhar card">Aadhar card
+                    <input type="file" name="aadhar" id="aadhar card">
+                </label>
+                <label for="pan card">PAN card
+                    <input type="file" name="PAN" id="pan card">
+                </label>
+                <label for="passport">Passport
+                    <input type="file" name="Your Passport" id="passport">
+                </label>
+                <label for="photograph">Passport size photograph
+                    <input type="file" name="photo" id="photograph">
+                </label>
+            </section>
+        </div>
+        <hr>
+
+        <div>
+            <h3>Optional Information</h3>
+            <label for="dress color">Chose Your Group Cloths Color: <br>
+                <input type="color">
+            </label>
+        </div>
+
+        <div>
+            <label for="Exicement level">Select Your Exicement Level For This Trip:
+                <input type="range" name="Exicement" id="Exicement level">
+            </label>
+        </div>
+        <hr>
+
+        <div>
+            <h3>Tearm's And Condition's</h3>
+            <label for="Tearm and Condition">
+                <input type="checkbox" name="Conditions" id="Tearm and Condition">I acknowledge that I have read this
+                registration form completely and the information I provided is accurate. I understand that my deposit is
+                non-refunable and other cancellation penalties will apply depending on the cancel date. I understand
+                that if my roomate (s) cancel, my rate will change. I understand that all monies must be paid by the
+                final payment date. if my balance is left unpaid, my cabin will be canceled immediately. Prices for
+                reinstated cabins maybe higher than intial rate and a $50 reinstatement / administration fee will be
+                charge by Essence Travel regardless of the cancellation date.
+            </label>
+        </div>
+        <hr>
+
+        <div>
+            <h3>Information Submit And Reset</h3>
+            <label for="submit data">Click here to submit the application form:
+                <input type="submit" name="submit" id="submit data" value="submit form">
+            </label><br>
+
+            <label for="reset data">Click here to reset your application form data
+                <input type="reset" name="reset" id="reset data" value="reset form">
+            </label>
+        </div>
+        <hr>
+        </form>
+    </main>
+
+    <footer>
+        <p><b><i> &lowast; If you have fill this form and submit it, our team is contact you on tour mobile number. if
+                    it is imposible to contact you on your mobile our team is contact you on your email. pleas cooprate
+                    with us.</i></b></p>
+
+        <h2> &#129309; Thank You For Select Sahil traveling Partners &#129309; </h2>
+    </footer>
+</body>
+
+</html>
